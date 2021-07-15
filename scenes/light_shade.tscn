@@ -1,0 +1,64 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="SphereMesh" id=1]
+
+[sub_resource type="SpatialMaterial" id=2]
+
+[node name="CSGMesh" type="CSGMesh"]
+transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0 )
+generate_lightmap = false
+calculate_tangents = false
+mesh = SubResource( 1 )
+material = SubResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CSGSphere2" type="CSGSphere" parent="."]
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, -1.75, 0, 0 )
+operation = 2
+radius = 0.2
+radial_segments = 24
+rings = 9
+
+[node name="CSGSphere3" type="CSGSphere" parent="."]
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 1.75, 0, 0 )
+operation = 2
+radius = 0.2
+radial_segments = 24
+rings = 9
+
+[node name="CSGSphere4" type="CSGSphere" parent="."]
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0, -1.75, 0 )
+operation = 2
+radius = 0.2
+radial_segments = 24
+rings = 9
+
+[node name="CSGSphere5" type="CSGSphere" parent="."]
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 1.75, 0 )
+operation = 2
+radius = 0.2
+radial_segments = 24
+rings = 9
+
+[node name="CSGSphere6" type="CSGSphere" parent="."]
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, -1.75 )
+operation = 2
+radius = 0.2
+radial_segments = 24
+rings = 9
+
+[node name="CSGSphere7" type="CSGSphere" parent="."]
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 1.75 )
+operation = 2
+radius = 0.2
+radial_segments = 24
+rings = 9
+
+[node name="CSGSphere8" type="CSGSphere" parent="."]
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0 )
+operation = 2
+radius = 0.196
+radial_segments = 24
+rings = 9

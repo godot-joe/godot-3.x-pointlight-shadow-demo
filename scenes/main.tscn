@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/main.gd" type="Script" id=1]
+
+[node name="SceneRoot3D" type="Spatial"]
+script = ExtResource( 1 )
+ambient_intensity = 0.397
+camera_motion = false
+light_range = 17.942
+light_intensity = 0.991
+light_color = Color( 0.490196, 0.8, 0.756863, 1 )
