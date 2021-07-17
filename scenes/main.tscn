@@ -4,8 +4,7 @@
 
 [node name="SceneRoot3D" type="Spatial"]
 script = ExtResource( 1 )
-ambient_intensity = 0.397
+ambient_intensity = 0.5
 camera_motion = false
-light_range = 17.942
-light_intensity = 0.991
-light_color = Color( 0.490196, 0.8, 0.756863, 1 )
+light_intensity = 0.8
+light_color = Color( 0.960784, 0.74902, 0.415686, 1 )
